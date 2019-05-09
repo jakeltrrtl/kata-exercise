@@ -35,7 +35,7 @@
                         <div class="col-lg-4"></div>
                         <div class="col-lg-4"></div>
                         <div class="col-lg-4">
-                            <!-- TODO add search bar to search for file name -->
+                          <!-- TODO add search bar to search for file name -->
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,11 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
                   <h2>To filter the table select the heading</h2>
-                    <!-- TODO add the xml table and add options to sort the headers --> 
+                    <!-- php load xml file & get contents from data.xml -->
+                    <?php
+                       $file = "data.xml";
+                       print file_get_contents($file);
+                    ?>
                 </div>
                 <div class="col-lg-2"></div>
             </div>
