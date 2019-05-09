@@ -1,0 +1,45 @@
+<table id="myTable" border="1" style="border-color: #f4f5f8;">
+   <tr bgcolor="#FF0078">
+      <th onclick="sortTable(0)">Type</th>
+      <th onclick="sortTable(1)">Name</th>
+      <th onclick="sortTable(2)">Date Added</th>
+      <th onclick="sortTable(3)">Files</th>
+      <th onclick="sortTable(4)">Size</th>
+   </tr>
+   <tr bgcolor="#70C4F9">
+      <td>PDF</td>
+      <td><a href="https://www.brighthr.com/download-centre">Employee Handbook</a></td>
+      <td>2017-01-06</td>
+      <td>N/A</td>
+      <td>196kb</td>
+   </tr>
+   <tr bgcolor="#70C4F9">
+      <td>PDF</td>
+      <td><a href="https://www.brighthr.com/download-centre">Public Holiday Policy</a></td>
+      <td>2016-12-06</td>
+      <td>N/A</td>  
+      <td>108kb</td>
+   </tr>
+   <tr bgcolor="#70C4F9">
+      <td>Folder</td>
+      <td>Expenses</td>
+      <td>2016-12-06</td>
+      <td>Type: doc </br> <a href="https://www.brighthr.com/download-centre">Name: Fuel Allowence</a> </br> Date Added: 2017-05-03</td>
+      <td>108kb</td>
+   </tr>
+   <tr bgcolor="#70C4F9">
+      <td>CSV</td>
+      <td><a href="https://www.brighthr.com/download-centre">Cost Centres</a></td>
+      <td>2016-08-12</td>
+      <td>N/A</td>
+      <td>127kb</td>
+   </tr>
+   <tr bgcolor="#70C4F9">
+      <td>Folder</td>
+      <td>Misc</td>
+      <td>2016-12-06</td>
+      <td>Type: doc </br> <a href="https://www.brighthr.com/download-centre">Name: Christmas Party</a> </br> Date Added: 2017-12-01 </br></br> Type: mov </br> <a href="https://www.brighthr.com/download-centre">Name: Welcome to the company!</a> </br> Added: 2015-04-24 </td>
+      <td>145kb</td>
+   </tr>
+</table>
+   
